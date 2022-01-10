@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: imagesearch
+  elasticsearch:
+    uris: "http://172.17.0.2:9200"
+#    uris: "http://47.100.82.122:9200"
+    socket-timeout: "10s"
